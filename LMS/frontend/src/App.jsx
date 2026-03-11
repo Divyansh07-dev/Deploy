@@ -29,7 +29,7 @@ import useGetCourseData from "./customHooks/useGetCourseData";
 import useGetCreatorCourseData from './customHooks/useGetCreatorCourseData'
 import useGetAllReviews from './customHooks/useGetAllReviews'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://deploy-3nsi.onrender.com"
 
 function App() {
   const { userData } = useSelector(state => state.user)
