@@ -15,7 +15,7 @@ let port = process.env.PORT
 let app = express()
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://deploy-1-niv8.onrender.com",
     credentials:true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
